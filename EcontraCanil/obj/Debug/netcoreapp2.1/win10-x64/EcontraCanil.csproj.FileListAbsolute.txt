@@ -1,0 +1,14 @@
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\win10-x64\hostpolicy.dll
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\win10-x64\hostfxr.dll
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\win10-x64\EcontraCanil.exe
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\win10-x64\EcontraCanil.deps.json
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\win10-x64\EcontraCanil.runtimeconfig.json
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\win10-x64\EcontraCanil.runtimeconfig.dev.json
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\win10-x64\EcontraCanil.dll
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\win10-x64\EcontraCanil.pdb
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\obj\Debug\netcoreapp2.1\win10-x64\EcontraCanil.csprojAssemblyReference.cache
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\obj\Debug\netcoreapp2.1\win10-x64\EcontraCanil.csproj.CoreCompileInputs.cache
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\obj\Debug\netcoreapp2.1\win10-x64\EcontraCanil.AssemblyInfoInputs.cache
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\obj\Debug\netcoreapp2.1\win10-x64\EcontraCanil.AssemblyInfo.cs
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\obj\Debug\netcoreapp2.1\win10-x64\EcontraCanil.dll
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\obj\Debug\netcoreapp2.1\win10-x64\EcontraCanil.pdb

@@ -1,0 +1,11 @@
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\EcontraCanil.deps.json
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\EcontraCanil.runtimeconfig.json
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\EcontraCanil.runtimeconfig.dev.json
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\EcontraCanil.dll
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\bin\Debug\netcoreapp2.1\EcontraCanil.pdb
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\obj\Debug\netcoreapp2.1\EcontraCanil.csprojAssemblyReference.cache
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\obj\Debug\netcoreapp2.1\EcontraCanil.csproj.CoreCompileInputs.cache
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\obj\Debug\netcoreapp2.1\EcontraCanil.AssemblyInfoInputs.cache
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\obj\Debug\netcoreapp2.1\EcontraCanil.AssemblyInfo.cs
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\obj\Debug\netcoreapp2.1\EcontraCanil.dll
+D:\Documentos\Projetos\EcontraCanil\EcontraCanil\obj\Debug\netcoreapp2.1\EcontraCanil.pdb
