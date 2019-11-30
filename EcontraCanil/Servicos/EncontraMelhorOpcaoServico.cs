@@ -11,7 +11,6 @@ namespace EcontraCanil.Serviços
 {
     public class EncontraMelhorOpcaoServico : IEncontraMelhorOpcaoServico
     {
-        private readonly List<PetShop> petShops = new List<PetShop>();
         private readonly Repositorio _repositorio = new Repositorio();
         public DateTime GerarDataBanho(string dados)
         {
@@ -38,28 +37,35 @@ namespace EcontraCanil.Serviços
 
             var valores = CalcularPreco(entrada, diaUtil);
             var valoresOrdenados = valores.OrderBy(pb => pb.PrecoBanho).ToList();
+            var saida = new Saida();
 
             if (valoresOrdenados[0].PrecoBanho != valoresOrdenados[1].PrecoBanho)
             {
-                return new Saida()
-                {
-                    Canil = valoresOrdenados[0].Nome,
-                    Preco = valoresOrdenados[0].PrecoBanho
-                };
+                saida.Canil = valoresOrdenados[0].Nome;
+                saida.Preco = valoresOrdenados[0].PrecoBanho;
             }
-            else
+            if (valoresOrdenados[0].PrecoBanho == valoresOrdenados[1].PrecoBanho && valoresOrdenados[0].PrecoBanho != valoresOrdenados[2].PrecoBanho)
             {
-                var doisMenoresValores = new List<double> { valoresOrdenados[0].Distancia, valoresOrdenados[1].Distancia };
-                var menorDistancia = doisMenoresValores.Min();
+                var duasMenoresDistancias = new List<double> { valoresOrdenados[0].Distancia, valoresOrdenados[1].Distancia };
+                var menorDistancia = duasMenoresDistancias.Min();
 
                 var petShop = valores.FirstOrDefault(ps => ps.Distancia == menorDistancia);
 
-                return new Saida()
-                {
-                    Canil = petShop.Nome,
-                    Preco = petShop.PrecoBanho
-                };
+                saida.Canil = petShop.Nome;
+                saida.Preco = petShop.PrecoBanho;
             }
+            if (valoresOrdenados[0].PrecoBanho == valoresOrdenados[1].PrecoBanho && valoresOrdenados[0].PrecoBanho == valoresOrdenados[2].PrecoBanho)
+            {
+                var distancas = new List<double> { valoresOrdenados[0].Distancia, valoresOrdenados[1].Distancia, valoresOrdenados[2].Distancia };
+                var menorDistancia = distancas.Min();
+
+                var petShop = valores.FirstOrDefault(ps => ps.Distancia == menorDistancia);
+
+                saida.Canil = petShop.Nome;
+                saida.Preco = petShop.PrecoBanho;
+            }
+
+            return saida;
         }
 
         public string ObterDiaSemana(DateTime data)
